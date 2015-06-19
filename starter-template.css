@@ -1,0 +1,28 @@
+body {
+  padding-top: 50px;
+ background-color:#e3f1f8;
+}
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
+}
+.navbarC{
+  background-color: #2E87B3;
+  color: black;
+}
+.jumbotronC {
+    position: relative;
+    background: #000 url("http://www.lazell.com.au/images/top.jpg?template=aa-12&colorScheme=blue&header=headers1&button=buttons3") center center;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    overflow: hidden;
+}
+.jumbotronA {
+    position: relative;
+    background: #e3f1f8 ;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    overflow: hidden;
+}
