@@ -17,11 +17,13 @@
     <link href="starter-template.css" rel="stylesheet">
          <!-- Custom styles for this template -->
     <link href="dashboard.css" rel="stylesheet">
+    <link href="projects.css" rel="stylesheet">
     
     <!-- Optional theme -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
 
 <!-- Latest compiled and minified JavaScript -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 
 <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -55,191 +57,171 @@
       </div>
     </nav>
 
- <div class="container-fluid">
-      <div class="row">
-        <div class="col-sm-3 col-md-2 sidebar">
-          <ul class="nav nav-sidebar">
-            <li class="active"><a href="#">Overview <span class="sr-only">(current)</span></a></li>
-            <li><a href="#">Reports</a></li>
-            <li><a href="#">Analytics</a></li>
-            <li><a href="#">Export</a></li>
-          </ul>
-          <ul class="nav nav-sidebar">
-            <li><a href="">Nav item</a></li>
-            <li><a href="">Nav item again</a></li>
-            <li><a href="">One more nav</a></li>
-            <li><a href="">Another nav item</a></li>
-            <li><a href="">More navigation</a></li>
-          </ul>
-          <ul class="nav nav-sidebar">
-            <li><a href="">Nav item again</a></li>
-            <li><a href="">One more nav</a></li>
-            <li><a href="">Another nav item</a></li>
-          </ul>
-        </div>
-        <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
-          <h1 class="page-header">Dashboard</h1>
+ <div class="container">
+    <div class="page-header">
+        <h1 id="timeline">Project Timeline</h1>
+    </div>
+    <ul class="timeline">
+      
 
-          <div class="row placeholders">
-            <div class="col-xs-6 col-sm-3 placeholder">
-              <img data-src="holder.js/200x200/auto/sky" class="img-responsive" alt="Generic placeholder thumbnail">
-              <h4>Label</h4>
-              <span class="text-muted">Something else</span>
+
+
+<li>
+          <div class="timeline-badge"><i class="glyphicon glyphicon-check"></i></div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h4 class="timeline-title">Sydney Metro (North West Rail Link) ($8.3B) - Consolidated Reporting Manager</h4>
+              <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> Nov 2014 -     present</small></p>
             </div>
-            <div class="col-xs-6 col-sm-3 placeholder">
-              <img data-src="holder.js/200x200/auto/vine" class="img-responsive" alt="Generic placeholder thumbnail">
-              <h4>Label</h4>
-              <span class="text-muted">Something else</span>
-            </div>
-            <div class="col-xs-6 col-sm-3 placeholder">
-              <img data-src="holder.js/200x200/auto/sky" class="img-responsive" alt="Generic placeholder thumbnail">
-              <h4>Label</h4>
-              <span class="text-muted">Something else</span>
-            </div>
-            <div class="col-xs-6 col-sm-3 placeholder">
-              <img data-src="holder.js/200x200/auto/vine" class="img-responsive" alt="Generic placeholder thumbnail">
-              <h4>Label</h4>
-              <span class="text-muted">Something else</span>
+            <div class="timeline-body">
+              <p>Development and implementation of Board Report</p>
             </div>
           </div>
-
-          <h2 class="sub-header">Section title</h2>
-          <div class="table-responsive">
-            <table class="table table-striped">
-              <thead>
-                <tr>
-                  <th>#</th>
-                  <th>Header</th>
-                  <th>Header</th>
-                  <th>Header</th>
-                  <th>Header</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>1,001</td>
-                  <td>Lorem</td>
-                  <td>ipsum</td>
-                  <td>dolor</td>
-                  <td>sit</td>
-                </tr>
-                <tr>
-                  <td>1,002</td>
-                  <td>amet</td>
-                  <td>consectetur</td>
-                  <td>adipiscing</td>
-                  <td>elit</td>
-                </tr>
-                <tr>
-                  <td>1,003</td>
-                  <td>Integer</td>
-                  <td>nec</td>
-                  <td>odio</td>
-                  <td>Praesent</td>
-                </tr>
-                <tr>
-                  <td>1,003</td>
-                  <td>libero</td>
-                  <td>Sed</td>
-                  <td>cursus</td>
-                  <td>ante</td>
-                </tr>
-                <tr>
-                  <td>1,004</td>
-                  <td>dapibus</td>
-                  <td>diam</td>
-                  <td>Sed</td>
-                  <td>nisi</td>
-                </tr>
-                <tr>
-                  <td>1,005</td>
-                  <td>Nulla</td>
-                  <td>quis</td>
-                  <td>sem</td>
-                  <td>at</td>
-                </tr>
-                <tr>
-                  <td>1,006</td>
-                  <td>nibh</td>
-                  <td>elementum</td>
-                  <td>imperdiet</td>
-                  <td>Duis</td>
-                </tr>
-                <tr>
-                  <td>1,007</td>
-                  <td>sagittis</td>
-                  <td>ipsum</td>
-                  <td>Praesent</td>
-                  <td>mauris</td>
-                </tr>
-                <tr>
-                  <td>1,008</td>
-                  <td>Fusce</td>
-                  <td>nec</td>
-                  <td>tellus</td>
-                  <td>sed</td>
-                </tr>
-                <tr>
-                  <td>1,009</td>
-                  <td>augue</td>
-                  <td>semper</td>
-                  <td>porta</td>
-                  <td>Mauris</td>
-                </tr>
-                <tr>
-                  <td>1,010</td>
-                  <td>massa</td>
-                  <td>Vestibulum</td>
-                  <td>lacinia</td>
-                  <td>arcu</td>
-                </tr>
-                <tr>
-                  <td>1,011</td>
-                  <td>eget</td>
-                  <td>nulla</td>
-                  <td>Class</td>
-                  <td>aptent</td>
-                </tr>
-                <tr>
-                  <td>1,012</td>
-                  <td>taciti</td>
-                  <td>sociosqu</td>
-                  <td>ad</td>
-                  <td>litora</td>
-                </tr>
-                <tr>
-                  <td>1,013</td>
-                  <td>torquent</td>
-                  <td>per</td>
-                  <td>conubia</td>
-                  <td>nostra</td>
-                </tr>
-                <tr>
-                  <td>1,014</td>
-                  <td>per</td>
-                  <td>inceptos</td>
-                  <td>himenaeos</td>
-                  <td>Curabitur</td>
-                </tr>
-                <tr>
-                  <td>1,015</td>
-                  <td>sodales</td>
-                  <td>ligula</td>
-                  <td>in</td>
-                  <td>libero</td>
-                </tr>
-              </tbody>
-            </table>
+        </li>
+        
+                  <li class="timeline-inverted">
+          <div class="timeline-badge"><i class="glyphicon glyphicon-check"></i></div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h4 class="timeline-title">MLC Facade Remediation Project ($60M) - Claims Manager</h4>
+              <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> Jan 2014 -     Jun 2014</small></p>
+            </div>
+            <div class="timeline-body">
+              <p>Documentation of a commercial claim</p>
+            </div>
           </div>
-        </div>
-      </div>
-    </div><!-- /.container -->
+        </li>
+        
+        <li>
+          <div class="timeline-badge"><i class="glyphicon glyphicon-check"></i></div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h4 class="timeline-title">Southern Sydney Frieght Line ($600M) - Cost Manager</h4>
+              <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> Oct  2010 -     Nov 2013</small></p>
+            </div>
+            <div class="timeline-body">
+              <p>Responsible for the ARTC cost control, reporting and commericial matters on the ARTC SSFL </p>
+            </div>
+          </div>
+        </li>
+        
+                  <li class="timeline-inverted">
+          <div class="timeline-badge"><i class="glyphicon glyphicon-check"></i></div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h4 class="timeline-title">Glenfield Junction Alliance ($330M) - Procurement Manager</h4>
+              <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> April 2010 -   Sept 2010</small></p>
+            </div>
+            <div class="timeline-body">
+              <p>Procurement of key contractors and suppliers for Macmahon Pty Ltd on the TCA GJA project.</p>
+            </div>
+          </div>
+        </li>
+        
+         <li>
+          <div class="timeline-badge"><i class="glyphicon glyphicon-check"></i></div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h4 class="timeline-title">Ulan Plus Rail Alliance ($100M) - TOC Manager</h4>
+              <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> Sept 2009 -   April 2010</small></p>
+            </div>
+            <div class="timeline-body">
+              <p>Responsible for developing the TOC (Target Out-turn Cost) and alliance commercial matters on the ARTC Ulan Plus Rail Alliance for Macmahon Pty Ltd and MVM Rail.</p>
+            </div>
+          </div>
+        </li>
+        
+
+                  <li class="timeline-inverted">
+          <div class="timeline-badge"><i class="glyphicon glyphicon-check"></i></div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h4 class="timeline-title">ACT Bulk Water Alliance ($500M) - Procurement Manager</h4>
+              <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> Jan 2008 – Aug 2009</small></p>
+            </div>
+            <div class="timeline-body">
+              <p>Responsible for managing commercial matters for the ACT Bulk Water Alliance for John Holland Pty Ltd and AbiGroup.</p>
+            </div>
+          </div>
+        </li>
+        
+        <li class="timeline-inverted">
+          <div class="timeline-badge"><i class="glyphicon glyphicon-check"></i></div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h4 class="timeline-title">Cronulla Line Duplication Project   ($245M) - Commercial Claims & Procurement Manager</h4>
+              <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> Aug 2007 –   Sept 2008</small></p>
+            </div>
+            <div class="timeline-body">
+              <p>Responsible for managing head contract commercial matters for the Cronulla Rail Project for John Holland Pty Ltd.</p>
+            </div>
+          </div>
+        </li>
+        
+        <li>
+          <div class="timeline-badge"><i class="glyphicon glyphicon-check"></i></div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h4 class="timeline-title">Sonic Healthcare Project ($50M) -  Commercial</h4>
+              <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> Jul 2006 – Aug 2007</small></p>
+            </div>
+            <div class="timeline-body">
+              <p>Commercial and head contract management for Baulderstone Hornibrook Pty Ltd.</p>
+            </div>
+          </div>
+        </li>
+
+        <li>
+          <div class="timeline-badge"><i class="glyphicon glyphicon-check"></i></div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h4 class="timeline-title">Sir Moses Montefiore Jewish Nursing Home Randwick ($100M) - Commercial</h4>
+              <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i>Nov 2003 – Jun 2006</small></p>
+            </div>
+            <div class="timeline-body">
+              <p>Head contract and subcontract management for Barclay Mowlem Pty Ltd. Responsibilities included the management and administration of commercial aspects of the head contract including notifications and contractual claims. Stuart’s role also involved negotiations and subsequent administration of subcontracts and supply agreements.</p>
+            </div>
+          </div>
+        </li>
+
+        <li>
+          <div class="timeline-badge"><i class="glyphicon glyphicon-check"></i></div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h4 class="timeline-title">Sutherland Hospital Project ($60M) - Commercial</h4>
+              <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> Feb 2002 – Oct 2003</small></p>
+            </div>
+            <div class="timeline-body">
+              <p>Head contract and subcontract management for Barclay Mowlem Pty Ltd.</p>
+            </div>
+          </div>
+        </li>
+        
+        
+        
+        
+        
+        
+
+
+
+
+
+
+        
+        
+
+
+
+
+    </ul>
+</div><!-- /.container -->
 
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    
     <script src="../../dist/js/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
