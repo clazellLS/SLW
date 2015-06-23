@@ -1,6 +1,13 @@
+Primary Shade
+#1E88E5
+Primary Light
+#90CAF9
+Primary Dark
+#1565C0
+
 body {
   padding-top: 50px;
- background-color:#e3f1f8;
+ background-color:#0066FF;
 }
 .starter-template {
   padding: 40px 15px;
