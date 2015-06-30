@@ -6,22 +6,63 @@ Primary Dark
 #1565C0
 
 body {
-  padding-top: 50px;
- background-color:#0066FF;
+  padding-top: 100px;
+  background-image:  url("./img/26334_Lazell management_LOGO_2.jpg");
+ background-color:#1565C0;
 }
 .starter-template {
   padding: 40px 15px;
   text-align: center;
 }
+
+.blog-masthead {
+  background-color: #2e6da4;
+  -webkit-box-shadow: inset 0 -2px 5px rgba(0,0,0,.1);
+          box-shadow: inset 0 -2px 5px rgba(0,0,0,.1);
+}
+
+/* Nav links */
+.blog-nav-item {
+  position: relative;
+  display: inline-block;
+  padding: 10px;
+  font-weight: 500;
+  color: #cdddeb;
+}
+.blog-nav-item:hover,
+.blog-nav-item:focus {
+  color: #1E88E5;
+  text-decoration: none;
+}
+
+/* Active state gets a caret at the bottom */
+.blog-nav .activb {
+  color: #fff;
+}
+.blog-nav .activeb:after {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 0;
+  margin-left: -5px;
+  vertical-align: middle;
+  content: " ";
+  border-right: 5px solid transparent;
+  border-bottom: 5px solid;
+  border-left: 5px solid transparent;
+}
 .navbarC{
-  background-color: #2E87B3;
+  background-color: #90CAF9;
   color: black;
 }
 .jumbotronC {
     position: relative;
-    background: #000 url("http://www.lazell.com.au/images/top.jpg?template=aa-12&colorScheme=blue&header=headers1&button=buttons3") center center;
+    
+
     width: 100%;
     height: 100%;
+    padding-top: 100px;
     background-size: cover;
     overflow: hidden;
 }
@@ -32,4 +73,9 @@ body {
     height: 100%;
     background-size: cover;
     overflow: hidden;
+}
+
+img{
+  margin-top: 100px;
+  margin-bottom:  100px;
 }
